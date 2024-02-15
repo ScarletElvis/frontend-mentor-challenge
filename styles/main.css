@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Figtree-ExtraBold;
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf)
+}
+
+@font-face {
+  font-family: Figtree-SemiBold;
+  src: url(assets/fonts/static/Figtree-SemiBold.ttf)
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 380px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  background: hsl(0, 0%, 100%);
+  width: 350px;
+  height: auto;
+  padding: 18px 10px 10px 10px;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 7px 7px 0px hsl(0, 0%, 7%);
+}
+
+.illustration-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-img {
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-evenly;
+  margin: 10px;
+}
+
+.header {
+font-size: 15px;
+font-family: Figtree-ExtraBold;
+padding: 5px;
+width: 70px;
+background-color: hsl(47, 88%, 63%);
+margin: 20px 0;
+border-radius: 4px;
+}
+
+.date {
+ font-size: 15px;
+ font-family: Figtree-SemiBold;
+ margin: 20px 0;
+}
+
+.title {
+  font-family: Figtree-ExtraBold;
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.description {
+ font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+margin: 20px 10px 20px 0;
+color: hsl(0, 0%, 50%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 320px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.name {
+  display: flex;
+  font-size: 14px;
+  font-family: Figtree-SemiBold;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 30px;
+  width: 100px;
+}
+
+.attribution {
+   font-size: 13px; 
+   text-align: center; 
+   margin: 20px;
+  }
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.name:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.header:hover {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}

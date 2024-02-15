@@ -47,4 +47,3 @@ I hope to gain more ingightful knowledge of css.
 
 - Frontend Mentor - [@ScarletElvis](https://www.frontendmentor.io/profile/ScarletElvis)
 - Twitter - [@DreamvilleScar](https://www.twitter.com/DreamvilleScar).
-

@@ -12,7 +12,7 @@ This is a solution to the [Blog preview challenge on Frontend Mentor](https://ww
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-- [Author](#author)
+- [Author](#author).
 
 ## Overview
 
